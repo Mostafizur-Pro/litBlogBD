@@ -1,0 +1,18 @@
+.banerImg {
+  background-image: url("../../../../public/About_Us/Banner.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 540px;
+  padding-top: 190px;
+}
+
+.custom_shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform-origin: left bottom;
+  transform: translateX(16%) translateY(3%) rotateZ(11deg);
+  transition: transform 0.3s ease;
+}
+.custom_shadow:hover {
+  transform: none
+}
